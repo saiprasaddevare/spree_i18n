@@ -1,0 +1,1 @@
+Dir["../lib/spree_i18n/*.rb"].each { |file| require file }
