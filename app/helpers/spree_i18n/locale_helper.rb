@@ -1,4 +1,4 @@
-require "#{Rails.root}/SpreeI18n/Locale"
+require "SpreeI18n/Locale"
 
 module SpreeI18n
   module LocaleHelper
