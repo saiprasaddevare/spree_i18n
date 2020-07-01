@@ -1,3 +1,4 @@
+require 'SpreeI18n::Locale'
 module SpreeI18n
   module LocaleHelper
 
