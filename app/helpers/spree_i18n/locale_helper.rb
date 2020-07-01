@@ -1,4 +1,4 @@
-Dir[File.join(File.dirname(__FILE__), 'lib/spree_i18n/*.rb')].sort.each { |f| require f }
+require 'lib/spree_i18n/locale'
 
 module SpreeI18n
   module LocaleHelper
