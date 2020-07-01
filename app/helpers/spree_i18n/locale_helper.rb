@@ -1,3 +1,5 @@
+Dir[File.join(File.dirname(__FILE__), 'lib/spree_i18n/*.rb')].sort.each { |f| require f }
+
 module SpreeI18n
   module LocaleHelper
 
@@ -15,7 +17,7 @@ module SpreeI18n
     # Need to manually add en to the array because the en.yml was moved from
     # this project. spree/spree now has those keys.
     def all_locales_options
-      locale_all.map { |locale| locale_presentation(locale) }.push(['English (EN)', :en])
+      SpreeI18n::Locale.all.map { |locale| locale_presentation(locale) }.push(['English (EN)', :en])
     end
 
     private
