@@ -1,4 +1,4 @@
-require "SpreeI18n/Locale"
+require "spreei18n/locale"
 
 module SpreeI18n
   module LocaleHelper
