@@ -1,4 +1,4 @@
-require "spreei18n/locale"
+require "../../../lib/spree_i18n/locale"
 
 module SpreeI18n
   module LocaleHelper
